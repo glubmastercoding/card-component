@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/isaac.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ss_files/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" href="./ss_files/isaac.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card hover">
+            <div class="img-star">
+                <img src="./ss_files/icon-star.svg" alt="">
+            </div>
+            <div class="text">
+                <h2>How did we do?</h2>
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
+            </div>
+            <div class="rating">
+                <div class="circle one">
+                    <span>1</span>
+                </div>
+                <div class="circle two">
+                    <span>2</span>
+                </div>
+                <div class="circle three">
+                    <span>3</span>
+                </div>
+                <div class=" circle four">
+                    <span>4</span>
+                </div>
+                <div class="circle five">
+                    <span>5</span>
+                </div>
+            </div>
+            <div class="submit">
+                <a href="http://127.0.0.1:5500/isaac.html#">Submit</a>
+            </div>
+        </div>
+        <div class="cardtwo click">
+            <div class="img">
+                <img src="./ss_files/illustration-thank-you.svg" alt="">
+            </div>
+            <div class="selection">
+                <span>U selected ...</span>
+            </div>
+            <div class="con">
+                <h2 class="thankyoutext">Thank You!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quam vel tempora iste autem tenetur totam magni sint modi.</p>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<script src="./ss_files/isaac.js.download" gapi_processed="true"></script>
+<style>.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}</style></body></html>
